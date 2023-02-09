@@ -1,0 +1,158 @@
+body
+{
+background-color: #dbd7d8;
+margin:0;
+}
+
+
+table, td
+{
+border-collapse:collapse;
+border-style:solid;
+border-color:red;
+font-size: 14pt;
+text-align:justify;
+margin-bottom:20px;
+margin-left:20px;
+margin-right:20px;
+}
+
+tr:nth-child(2n) {
+    background: #f0f0f0; 
+   } 
+   tr:nth-child(2n+1) {
+    background: #666; 
+    color: #fff; 
+   } 
+
+
+
+
+a {
+transition: .3s linear;
+}
+
+nav {
+  margin: 10px;
+}
+.one li{
+  padding-left: 30px;
+}
+.one ul {
+  padding: 1em;
+}
+.one a {
+  padding: 1em;
+  background: #dba7bc;
+  border-left: 0px solid #34D800;
+  border-right: 5px solid red;
+  color: #695753;
+border-radius: 20px;
+}
+.one a:hover 
+{
+background: #b19891;
+border-right:0px solid red;
+border-left: 7px solid #34D800;
+}
+
+.one li {
+  display: inline;
+}
+
+.image {
+position: relative;
+width: 100%; 
+background: #000;
+}
+.image img {
+opacity: 0.6;
+}
+
+a:link 
+{
+text-decoration:none;
+border-radius: 20px;
+}
+a:visited 
+{
+text-decoration:none;
+}
+a:hover
+{
+text-decoration:underline;
+}
+
+
+h2 {
+text-align:center;
+font-size:50px;
+color: white;
+position: absolute;
+top: 30%;
+width: 100%;
+}
+
+h3
+{
+text-align:center;
+}
+
+h4[b]
+{
+text-align:center;
+}
+
+hr
+{
+width:30%;
+height:1px;
+background-color:red;
+}
+
+.Text
+{
+text-align:left;
+margin-left:2cm;
+margin-right:2cm;
+}
+
+P:first-letter 
+{
+font-size:14pt;
+}
+.ss
+{
+margin-left:45%;
+}
+
+
+
+
+
+
+.accordion {
+    background-color: #dbd7d8;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: center;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .accordion:hover {
+    background-color: #ccc;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+    padding: 0 18px;
+    background-color: #dbd7d8;
+    display: none;
+    overflow: hidden;
+}
+

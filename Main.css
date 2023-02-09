@@ -1,0 +1,93 @@
+body
+{
+background-color: #dbd7d8;
+margin:0;
+}
+
+.PP
+{
+font-size: 14pt;
+font-family: Times New Roman;
+}
+
+a:link 
+{
+text-decoration:none;
+border-radius: 20px;
+}
+a:visited 
+{
+color:red;
+text-decoration:none;
+}
+a:hover
+{
+color:green;
+text-decoration:underline;
+}
+
+
+P:first-letter 
+{
+font-size:18pt;
+}
+
+ul {
+  list-style: none; 
+  margin: 0 auto;
+}
+
+a {
+transition: .3s linear;
+}
+
+nav {
+  margin: 10px;
+}
+.one li{
+  padding-left: 30px;
+}
+.one ul {
+  padding: 1em;
+
+}
+.one a {
+  padding: 1em;
+  background: #dba7bc;
+  border-left: 0px solid #34D800;
+  border-right: 7px solid red;
+  color: #695753;
+onclick:"newDoc()";
+border-radius: 20px;
+}
+.one a:hover 
+{
+background: #b19891;
+border-left: 7px solid #34D800;
+border-right:0px solid red;
+}
+
+.one li {
+  display: inline;
+}
+
+.uu div{
+
+}
+
+
+hr
+{
+width:50%;
+height:1px;
+background-color:red;
+}
+
+
+
+
+
+
+
+
+
